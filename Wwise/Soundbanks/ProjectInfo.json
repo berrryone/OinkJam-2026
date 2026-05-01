@@ -1,0 +1,29 @@
+{
+ "ProjectInfo": {
+  "Project": {
+   "Name": "RENAME-OINKJAM",
+   "GUID": "{1C55B231-D00C-4961-8BB5-80384F241075}",
+   "Generator": "2025.1.7.9143"
+  },
+  "CacheRoot": "../../../WwiseProjects/RENAME-OINKJAM/.cache",
+  "Platforms": [
+   {
+    "Name": "Windows",
+    "GUID": "{8EF22F93-0FAC-4E6A-9539-3D00624D39A7}",
+    "BasePlatform": "Windows",
+    "BasePlatformGUID": "{6E0CB257-C6C8-4C5C-8366-2740DFC441EB}",
+    "Path": "Windows"
+   }
+  ],
+  "Languages": [
+   {
+    "Name": "English(US)",
+    "Id": "684519430",
+    "GUID": "{2850577D-1B94-4B69-BF21-7579F4C9C8CE}",
+    "Default": "true",
+    "UseAsStandIn": "true"
+   }
+  ],
+  "FileHash": "{54A343E4-3A7D-A5D3-957F-289716267EA4}"
+ }
+}

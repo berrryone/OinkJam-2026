@@ -12,7 +12,11 @@ config_version=5
 
 config/name="OinkJam-2026"
 config/features=PackedStringArray("4.6", "Forward Plus")
-config/icon="res://icon.svg"
+config/icon="res://assets/icon.svg"
+
+[autoload]
+
+WwiseRuntimeManager="*res://addons/Wwise/runtime/wwise_runtime_manager.gd"
 
 [dotnet]
 
@@ -25,3 +29,10 @@ project/assembly_name="OinkJam-2026"
 [rendering]
 
 rendering_device/driver.windows="d3d12"
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"
+
+[wwise]
+
+common_user_settings/root_output_path="res://Wwise/Soundbanks"
+project_settings/windows_platform_info="res://Wwise/resources/Windows.tres"
