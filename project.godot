@@ -11,7 +11,7 @@ config_version=5
 [application]
 
 config/name="OinkJam-2026"
-run/main_scene="uid://c74d581jtpyl4"
+run/main_scene="uid://n20m7e031cue"
 config/features=PackedStringArray("4.6", "C#", "Forward Plus")
 config/icon="res://assets/icon.svg"
 
