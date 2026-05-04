@@ -12,6 +12,7 @@ var pattern: Array
 var symbol_input_time: float
 
 signal symbol_input_success_time
+signal symbol_input_fail
 
 # load sprites into memory
 func _ready() -> void:
@@ -78,6 +79,7 @@ func success(idx: int) -> void:
 	symbol_input_time = 0.0
 
 func fail() -> void:
+	symbol_input_fail.emit()
 	for arrow in arrows:
 		arrow.texture = arrow_base
 		arrow.reset()

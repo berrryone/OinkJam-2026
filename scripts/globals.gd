@@ -20,13 +20,13 @@ var combat_enemy_sprites: Dictionary = {
 
 # this determines what multiplier is added for score
 # and also is an indication of the text that is displayed
-# on the hud
+# on the hud - the number is in seconds
 var combat_input_precision: Dictionary = {
-	"superb": 0.5, # + 2x multiplier
-	"great": 1, # + 1x multiplier
-	"good": 1.8, # + 0.5x multiplier
-	"sure": 2,
-	"lol": 3.0
+	"superb": 0.1,
+	"great": 0.2,
+	"good": 0.3,
+	"sure": 0.5,
+	"nope": 1.0
 }
 
 enum GameStates {

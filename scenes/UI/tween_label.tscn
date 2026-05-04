@@ -1,0 +1,22 @@
+[gd_scene format=3 uid="uid://by26ox5y73vth"]
+
+[ext_resource type="FontFile" uid="uid://pfyak6wep6wh" path="res://assets/fonts/ProtestRevolution-Regular.ttf" id="1_7tg0k"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_wq6jp"]
+font = ExtResource("1_7tg0k")
+font_size = 24
+
+[node name="TweenLabel" type="Label" unique_id=730698128]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -50.0
+offset_top = -15.0
+offset_right = 50.0
+offset_bottom = 15.0
+grow_horizontal = 2
+grow_vertical = 2
+text = "tween-me"
+label_settings = SubResource("LabelSettings_wq6jp")

@@ -19,6 +19,8 @@ var timer_visual: Node2D
 signal pattern_input_success
 signal pattern_input_failure
 signal symbol_input_success_time2
+signal symbol_input_fail2
+signal spawned_pattern
 
 # init
 func _ready() -> void:
@@ -30,8 +32,8 @@ func _ready() -> void:
 	]
 
 	# pattern settings
-	pattern_spawn_delay = 4 	# time until next pattern spawns
-	pattern_scroll_speed = 400
+	pattern_spawn_delay = 3 	# time until next pattern spawns
+	pattern_scroll_speed = 500
 	pattern_idx = 0
 	b_active = false
 	b_success = false
@@ -55,7 +57,7 @@ func _process(_delta: float) -> void:
 func start_spawning() -> void:
 	add_child(timer_visual)
 	add_child(pattern_spawn_timer)
-	timer_visual.position = Vector2(950.0, 120.0)
+	timer_visual.position = Vector2(950.0, 140.0)
 	pattern_spawn_timer.start()
 	b_active = true
 
@@ -78,11 +80,13 @@ func spawn_pattern() -> void:
 		var selected_pattern = choose_next_pattern()
 		ap_instance = attack_pattern_prefab.instantiate()
 		ap_instance.symbol_input_success_time.connect(handle_symbol_input_success_time)
+		ap_instance.symbol_input_fail.connect(handle_symbol_input_fail)
 		ap_instance.set_pattern(pattern_lib[selected_pattern], pattern_scroll_speed, 50.0)
 		add_child(ap_instance)
 		ap_instance.position = Vector2(950.0, 0.0)
 		ap_instance.show()
 		ap_instance.start()
+		spawned_pattern.emit()
 
 # currently chooses a pattern randomly from the array defined in _ready
 # but this will probably change so the player will select which pattern they want to use
@@ -114,3 +118,6 @@ func reset() -> void:
 
 func handle_symbol_input_success_time(input_time: float) -> void:
 	symbol_input_success_time2.emit(input_time)
+
+func handle_symbol_input_fail() -> void:
+	symbol_input_fail2.emit()

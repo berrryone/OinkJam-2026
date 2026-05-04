@@ -2,17 +2,30 @@
 
 [ext_resource type="Script" uid="uid://teicw2jkvu8r" path="res://scripts/combat/combat_hud.gd" id="1_swk68"]
 [ext_resource type="FontFile" uid="uid://pfyak6wep6wh" path="res://assets/fonts/ProtestRevolution-Regular.ttf" id="2_pn8vs"]
+[ext_resource type="PackedScene" uid="uid://by26ox5y73vth" path="res://scenes/UI/tween_label.tscn" id="3_omoar"]
+[ext_resource type="FontFile" uid="uid://c57wrklqr8ham" path="res://assets/fonts/CarterOne-Regular.ttf" id="4_cxy85"]
 
 [sub_resource type="LabelSettings" id="LabelSettings_h2dbt"]
 font = ExtResource("2_pn8vs")
 font_size = 36
 
-[node name="CombatHud" type="Node2D" unique_id=967472215]
+[sub_resource type="LabelSettings" id="LabelSettings_m7b21"]
+font = ExtResource("2_pn8vs")
+font_size = 28
+
+[sub_resource type="LabelSettings" id="LabelSettings_mq2li"]
+font = ExtResource("4_cxy85")
+font_size = 72
+
+[node name="CombatHud" type="Node2D" unique_id=967472215 node_paths=PackedStringArray("combat_score_label", "combat_score_mod_label", "multiplier_label")]
 script = ExtResource("1_swk68")
+combat_score_label = NodePath("CombatScore")
+combat_score_mod_label = NodePath("CombatScoreMod")
+multiplier_label = NodePath("Multiplier")
 enemy_start_pos = Vector2(200, 200)
 enemy_end_pos = Vector2(550, 200)
 enemy_intro_time = 0.25
-reaction_text_start_pos = Vector2(950, 250)
+reaction_text_start_pos = Vector2(910, 250)
 reaction_text_end_pos = Vector2(950, 200)
 reaction_text_color = Color(0.58907443, 0.30049345, 0.79654706, 1)
 reaction_text_fade_to = 0.5
@@ -23,5 +36,30 @@ offset_left = 45.0
 offset_top = 45.0
 offset_right = 253.0
 offset_bottom = 89.0
-text = "Score: 99999"
+text = "Score: 0"
 label_settings = SubResource("LabelSettings_h2dbt")
+
+[node name="CombatScoreMod" type="Label" parent="." unique_id=41774370]
+visible = false
+anchors_preset = 3
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 176.0
+offset_top = 92.0
+offset_right = 253.0
+offset_bottom = 126.0
+grow_horizontal = 0
+grow_vertical = 0
+text = "0"
+label_settings = SubResource("LabelSettings_m7b21")
+
+[node name="Multiplier" parent="." unique_id=730698128 instance=ExtResource("3_omoar")]
+visible = false
+offset_left = 886.0
+offset_top = 292.0
+offset_right = 1043.0
+offset_bottom = 404.0
+text = "150x"
+label_settings = SubResource("LabelSettings_mq2li")
