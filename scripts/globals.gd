@@ -1,6 +1,14 @@
 extends Node
 
 var game_controller: GameController
+var game_score: float
+var game_score_mod: float
+var combat_score: float
+
+func _ready() -> void:
+	game_score = 0.0
+	game_score_mod = 0.0
+	combat_score = 0.0
 
 var hud_scene_lib: Array = [
 	"res://scenes/main_menu.tscn",

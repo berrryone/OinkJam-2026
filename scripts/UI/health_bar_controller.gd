@@ -14,7 +14,7 @@ func _ready() -> void:
 
 	Globals.game_controller.combat_input_pressed.connect(update_hearts)
 
-func update_hearts() -> void:
+func update_hearts(_input: String = "") -> void:
 	var check_n_hearts = calc_num_hearts()
 	if check_n_hearts > hearts.size():
 		add_hearts(check_n_hearts - hearts.size())

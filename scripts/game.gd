@@ -102,8 +102,8 @@ func change_game_state(to_state: Globals.GameStates, from_state: Globals.GameSta
 			if from_state == Globals.GameStates.in_combat:
 				game_state = Globals.GameStates.in_world
 				last_game_state = from_state
-				change_scene(Globals.LevelScenes.dev_scene, false, true)
-				change_ui_scene(Globals.HUDScenes.game_hud, false, true)
+				change_scene(Globals.LevelScenes.dev_scene)
+				change_ui_scene(Globals.HUDScenes.game_hud)
 				use_game_camera.emit()
 				unpause_game()
 				combat_ended.emit()

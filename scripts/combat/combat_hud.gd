@@ -4,6 +4,7 @@ var ref_world : Node2D
 var pattern_spawner: Node2D
 var pattern_count: int
 var b_input_paused: bool
+var b_combat_paused: bool
 
 var combat_patterns = preload("res://scenes/combat/combat_pattern_ui.tscn")
 
@@ -45,6 +46,7 @@ func _ready() -> void:
 	enemy_container.add_child(enemy_instance)
 	enemy_instance.hide()
 
+	b_combat_paused = false
 	b_input_paused = false
 	pattern_count = 0
 	combat_score = 0.0
@@ -61,6 +63,8 @@ func _ready() -> void:
 	Globals.game_controller.combat_input_pressed.connect(handle_combat_input)
 	Globals.game_controller.combat_started.connect(start_pattern_scroll)
 	Globals.game_controller.combat_ended.connect(stop_pattern_scroll)
+	Globals.game_controller.combat_paused.connect(on_combat_paused)
+	Globals.game_controller.combat_unpaused.connect(on_combat_unpaused)
 
 func _process(delta: float) -> void:
 	if b_adding_score:
@@ -79,6 +83,9 @@ func _process(delta: float) -> void:
 			hide_score_mod()
 			b_adding_score = false
 	
+	# TEMPORARY - will eventually do this when we end combat from this script
+	Globals.combat_score = combat_score + combat_score_mod
+	
 	if b_show_multiplier:
 		update_multiplier()
 
@@ -90,6 +97,15 @@ func handle_new_game() -> void:
 # input (combat only)
 func handle_combat_input(input: String) -> void:
 	pattern_spawner.check_input(input)
+
+func on_combat_paused() -> void:
+	b_combat_paused = true
+	pattern_spawner.pause_spawning()
+
+func on_combat_unpaused() -> void:
+	b_combat_paused = false
+	if pattern_spawner != null:
+		pattern_spawner.resume_spawning()
 
 # arrow pattern system
 func start_pattern_scroll() -> void:

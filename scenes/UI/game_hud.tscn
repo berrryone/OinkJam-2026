@@ -1,8 +1,45 @@
 [gd_scene format=3 uid="uid://cdrj6xblb3epo"]
 
 [ext_resource type="PackedScene" uid="uid://beo7cifxhgfak" path="res://scenes/UI/health_bar.tscn" id="1_1wjll"]
+[ext_resource type="Script" uid="uid://du6jx05en4ktq" path="res://scripts/UI/game_hud.gd" id="1_7wtpu"]
+[ext_resource type="FontFile" uid="uid://pfyak6wep6wh" path="res://assets/fonts/ProtestRevolution-Regular.ttf" id="3_8i1d3"]
 
-[node name="GameHud" type="Node2D" unique_id=983146821]
+[sub_resource type="LabelSettings" id="LabelSettings_dcvcj"]
+font = ExtResource("3_8i1d3")
+font_size = 36
+
+[sub_resource type="LabelSettings" id="LabelSettings_0ua0p"]
+font = ExtResource("3_8i1d3")
+font_size = 28
+
+[node name="GameHud" type="Node2D" unique_id=983146821 node_paths=PackedStringArray("game_score_label", "game_score_mod_label")]
+script = ExtResource("1_7wtpu")
+game_score_label = NodePath("GameScore")
+game_score_mod_label = NodePath("GameScoreMod")
 
 [node name="HealthBar" parent="." unique_id=780960740 instance=ExtResource("1_1wjll")]
 position = Vector2(45, 500)
+
+[node name="GameScore" type="Label" parent="." unique_id=1553449828]
+offset_left = 45.0
+offset_top = 45.0
+offset_right = 253.0
+offset_bottom = 89.0
+text = "Score: 0"
+label_settings = SubResource("LabelSettings_dcvcj")
+
+[node name="GameScoreMod" type="Label" parent="." unique_id=1930880178]
+visible = false
+anchors_preset = 3
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 153.0
+offset_top = 91.0
+offset_right = 230.0
+offset_bottom = 125.0
+grow_horizontal = 0
+grow_vertical = 0
+text = "0"
+label_settings = SubResource("LabelSettings_0ua0p")
