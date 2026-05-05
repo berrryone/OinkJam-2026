@@ -1,0 +1,15 @@
+Event	ID	Name			Wwise Object Path	Notes
+	996272122	sfx_ENEMY_pig_npc_snore			\Default Work Unit\sfx_ENEMY_pig_npc_snore	
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	1826053195	Pig_Count			\Default Work Unit\Pig_Count	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	23657185	sfx_ENEMY_pig_snors_03	.cache\07\{07671EAE-C1A1-6EB5-8429-C6F49B1A440E}.wem		\Containers\Default Work Unit\ENEMY\ENEMY\sfx_ENEMY_pig_snors_03		48972
+	212930780	sfx_ENEMY_pig_snore_02	.cache\AA\{AA3A1197-A4BD-D5E0-010C-40E5A0CCE241}.wem		\Containers\Default Work Unit\ENEMY\ENEMY\sfx_ENEMY_pig_snore_02		30042
+	299721440	sfx_ENEMY_pig_snors_07	.cache\30\{3032B3AD-DB2B-4B87-D36D-888A03685196}.wem		\Containers\Default Work Unit\ENEMY\ENEMY\sfx_ENEMY_pig_snors_07		53358
+	417137976	sfx_ENEMY_pig_snors_04	.cache\DB\{DBABD43D-47F2-9AA1-1A26-E382A694DADF}.wem		\Containers\Default Work Unit\ENEMY\ENEMY\sfx_ENEMY_pig_snors_04		34560
+	547956405	sfx_ENEMY_pig_snors_05	.cache\83\{83A6F3C1-8186-C226-A44E-204E1FD93D1B}.wem		\Containers\Default Work Unit\ENEMY\ENEMY\sfx_ENEMY_pig_snors_05		32188
+	662528356	sfx_ENEMY_pig_snors_08	.cache\DF\{DF59344A-7EA8-161E-F815-5B3B9E6FF82D}.wem		\Containers\Default Work Unit\ENEMY\ENEMY\sfx_ENEMY_pig_snors_08		47092
+	1068677485	sfx_ENEMY_pig_snors_06	.cache\35\{35D49AA0-3FEE-1D09-6BF6-F388DA821683}.wem		\Containers\Default Work Unit\ENEMY\ENEMY\sfx_ENEMY_pig_snors_06		75338
+

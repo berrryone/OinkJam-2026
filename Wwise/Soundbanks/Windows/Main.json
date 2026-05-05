@@ -1,0 +1,122 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "172",
+  "SoundBanks": [
+   {
+    "Id": "3161908922",
+    "Type": "User",
+    "GUID": "{426DB5F1-E237-4D6E-BB15-22CC67446715}",
+    "Language": "SFX",
+    "Hash": "{44EF9465-E5A4-2C3E-67E3-7711CB19ED50}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
+    "ShortName": "Main",
+    "Path": "Main.bnk",
+    "Media": [
+     {
+      "Id": "23657185",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "sfx_ENEMY_pig_snors_03.wav",
+      "CachePath": "07/{07671EAE-C1A1-6EB5-8429-C6F49B1A440E}.wem"
+     },
+     {
+      "Id": "212930780",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "sfx_ENEMY_pig_snors_02.wav",
+      "CachePath": "AA/{AA3A1197-A4BD-D5E0-010C-40E5A0CCE241}.wem"
+     },
+     {
+      "Id": "299721440",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "sfx_ENEMY_pig_snors_07.wav",
+      "CachePath": "30/{3032B3AD-DB2B-4B87-D36D-888A03685196}.wem"
+     },
+     {
+      "Id": "417137976",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "sfx_ENEMY_pig_snors_04.wav",
+      "CachePath": "DB/{DBABD43D-47F2-9AA1-1A26-E382A694DADF}.wem"
+     },
+     {
+      "Id": "547956405",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "sfx_ENEMY_pig_snors_05.wav",
+      "CachePath": "83/{83A6F3C1-8186-C226-A44E-204E1FD93D1B}.wem"
+     },
+     {
+      "Id": "662528356",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "sfx_ENEMY_pig_snors_08.wav",
+      "CachePath": "DF/{DF59344A-7EA8-161E-F815-5B3B9E6FF82D}.wem"
+     },
+     {
+      "Id": "1068677485",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "sfx_ENEMY_pig_snors_06.wav",
+      "CachePath": "35/{35D49AA0-3FEE-1D09-6BF6-F388DA821683}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "996272122",
+      "Name": "sfx_ENEMY_pig_npc_snore",
+      "ObjectPath": "\\Events\\Default Work Unit\\sfx_ENEMY_pig_npc_snore",
+      "GUID": "{AD0EFDB9-7179-47B8-9656-DE2B2F78FC8B}",
+      "MaxAttenuation": "30",
+      "DurationType": "OneShot",
+      "DurationMin": "3.5339916",
+      "DurationMax": "2003.7441",
+      "MediaRefs": [
+       {
+        "Id": "23657185"
+       },
+       {
+        "Id": "212930780"
+       },
+       {
+        "Id": "299721440"
+       },
+       {
+        "Id": "417137976"
+       },
+       {
+        "Id": "547956405"
+       },
+       {
+        "Id": "662528356"
+       },
+       {
+        "Id": "1068677485"
+       }
+      ]
+     }
+    ],
+    "GameParameters": [
+     {
+      "Id": "1826053195",
+      "Name": "Pig_Count",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Pig_Count",
+      "GUID": "{F5B27FAA-CD17-401D-A955-B6BF4E63BABC}"
+     }
+    ]
+   }
+  ],
+  "FileHash": "{F5E5BA45-9529-63D4-5AC5-DC8326687518}"
+ }
+}
