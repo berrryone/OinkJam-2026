@@ -1,15 +1,15 @@
-[gd_scene format=3 uid="uid://cjjb6xbqjeo23"]
+[gd_scene load_steps=6 format=3 uid="uid://cjjb6xbqjeo23"]
 
 [ext_resource type="Script" uid="uid://cemdwl6pfkppi" path="res://scripts/splash_screen_manager.gd" id="1_kkrr7"]
-[ext_resource type="FontFile" uid="uid://pfyak6wep6wh" path="res://assets/fonts/ProtestRevolution-Regular.ttf" id="1_rx4go"]
+[ext_resource type="FontFile" uid="uid://pmt31k205jyp" path="res://assets/fonts/ProtestRevolution-Regular.ttf" id="1_rx4go"]
 [ext_resource type="PackedScene" uid="uid://chxkb6vugd40p" path="res://scenes/main.tscn" id="2_4krii"]
-[ext_resource type="Texture2D" uid="uid://rpik34r0vut2" path="res://assets/UI/main_menu_bg.jpg" id="3_dpkmb"]
+[ext_resource type="Texture2D" uid="uid://cdycm4jf3hf4" path="res://assets/UI/main_menu_bg.jpg" id="3_dpkmb"]
 
 [sub_resource type="LabelSettings" id="LabelSettings_f3omg"]
 font = ExtResource("1_rx4go")
 font_size = 72
 
-[node name="SplashScreenManager" type="Control" unique_id=493780438 node_paths=PackedStringArray("splash_screen")]
+[node name="SplashScreenManager" type="Control" node_paths=PackedStringArray("splash_screen")]
 layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0
@@ -22,7 +22,7 @@ script = ExtResource("1_kkrr7")
 load_scene = ExtResource("2_4krii")
 splash_screen = NodePath("CenterContainer/Label")
 
-[node name="Background" type="TextureRect" parent="." unique_id=522620517]
+[node name="Background" type="TextureRect" parent="."]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
@@ -32,7 +32,7 @@ grow_vertical = 2
 texture = ExtResource("3_dpkmb")
 expand_mode = 2
 
-[node name="CenterContainer" type="CenterContainer" parent="." unique_id=1998209993]
+[node name="CenterContainer" type="CenterContainer" parent="."]
 layout_mode = 1
 anchors_preset = 8
 anchor_left = 0.5
@@ -46,7 +46,7 @@ offset_bottom = 44.0
 grow_horizontal = 2
 grow_vertical = 2
 
-[node name="Label" type="Label" parent="CenterContainer" unique_id=1997381400]
+[node name="Label" type="Label" parent="CenterContainer"]
 layout_mode = 2
 text = "Swine Hide"
 label_settings = SubResource("LabelSettings_f3omg")

@@ -1,4 +1,4 @@
-[gd_resource type="WwiseProjectData" format=3 uid="uid://bqnsvi70a81xi"]
+[gd_resource type="WwiseProjectData" load_steps=30 format=3 uid="uid://bqnsvi70a81xi"]
 
 [sub_resource type="WwiseTreeObject" id="WwiseTreeObject_dn5s6"]
 path = "\\Virtual Acoustics\\Factory Acoustic Textures\\Textures\\Acoustic_Banner"

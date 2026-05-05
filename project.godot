@@ -12,8 +12,8 @@ config_version=5
 
 config/name="OinkJam-2026"
 run/main_scene="uid://cjjb6xbqjeo23"
-config/features=PackedStringArray("4.6", "C#", "Forward Plus")
-boot_splash/bg_color=Color(0.041507192, 0.0415072, 0.04150717, 1)
+config/features=PackedStringArray("4.4", "Forward Plus")
+boot_splash/bg_color=Color(0.0415072, 0.0415072, 0.0415072, 1)
 boot_splash/show_image=false
 config/icon="res://assets/icon.svg"
 
