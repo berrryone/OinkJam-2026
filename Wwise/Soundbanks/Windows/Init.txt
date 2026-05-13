@@ -1,3 +1,13 @@
+State Group	ID	Name			Wwise Object Path	Notes
+	2582085496	Exploration			\Default Work Unit\Exploration	
+	2607556080	Menu			\Default Work Unit\Menu	
+	2764240573	Combat			\Default Work Unit\Combat	
+
+State	ID	Name	State Group			Notes
+	748895195	None	Exploration			
+	748895195	None	Menu			
+	748895195	None	Combat			
+
 Audio Bus	ID	Name			Wwise Object Path	Notes
 	2246998526	Main Audio Bus			\Default Work Unit\Main Audio Bus	
 

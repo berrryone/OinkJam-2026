@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{426DB5F1-E237-4D6E-BB15-22CC67446715}",
     "Language": "SFX",
-    "Hash": "{44EF9465-E5A4-2C3E-67E3-7711CB19ED50}",
+    "Hash": "{5EAC6F1E-072E-2B6A-DE82-764EB9A6821B}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -22,14 +22,6 @@
       "Location": "Memory",
       "ShortName": "sfx_ENEMY_pig_snors_03.wav",
       "CachePath": "07/{07671EAE-C1A1-6EB5-8429-C6F49B1A440E}.wem"
-     },
-     {
-      "Id": "212930780",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "sfx_ENEMY_pig_snors_02.wav",
-      "CachePath": "AA/{AA3A1197-A4BD-D5E0-010C-40E5A0CCE241}.wem"
      },
      {
       "Id": "299721440",
@@ -74,20 +66,233 @@
     ],
     "Events": [
      {
+      "Id": "872933623",
+      "Name": "Play_ENEMY_Aggro_Close_Attack",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_ENEMY_Aggro_Close_Attack",
+      "GUID": "{9D0FB972-A7C5-49E2-9D95-F2A5744D268D}",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "3803466734",
+      "Name": "Play_ENEMY_CBT_appear",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_ENEMY_CBT_appear",
+      "GUID": "{91FC31F5-312A-44E5-B57E-DFBFDCDD8BD3}",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "2734126450",
+      "Name": "Play_ENEMY_CBT_damage",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_ENEMY_CBT_damage",
+      "GUID": "{8C10BA04-B135-44F0-A058-B659D82A5B5D}",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "3229301663",
+      "Name": "Play_ENEMY_CBT_Sees_Player_Investigate_Oink",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_ENEMY_CBT_Sees_Player_Investigate_Oink",
+      "GUID": "{C09B437C-83A3-4804-921C-DA866A32AB32}",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "2531999604",
+      "Name": "Play_ENEMY_END",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_ENEMY_END",
+      "GUID": "{3017B852-B590-47CD-BB39-5B3AD3CCFABA}",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "469901184",
+      "Name": "Play_ENVIRO_Close_Container",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_ENVIRO_Close_Container",
+      "GUID": "{15617A3C-E33C-409C-A4AF-DB3D4CAABD75}",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "2877007734",
+      "Name": "Play_ENVIRO_Combat_Timer_End_Pattern_Switch",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_ENVIRO_Combat_Timer_End_Pattern_Switch",
+      "GUID": "{026E3BA7-6F76-4877-8244-D6235AC57DC0}",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "3322081940",
+      "Name": "Play_ENVIRO_Open_Container",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_ENVIRO_Open_Container",
+      "GUID": "{06360CEE-007B-4580-953F-BE686ADDC304}",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "361969070",
+      "Name": "Play_ENVIRO_WORLD_END",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_ENVIRO_WORLD_END",
+      "GUID": "{84885D67-9D36-4BFA-8098-8F1DD28D2D21}",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "1653993732",
+      "Name": "Play_PLAYER_CBT_attack",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_PLAYER_CBT_attack",
+      "GUID": "{7F36594A-1A1B-43C1-BF32-05C21C3A5047}",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "4035153595",
+      "Name": "Play_PLAYER_CBT_damage",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_PLAYER_CBT_damage",
+      "GUID": "{A3B328B1-C6A4-4E54-A9F5-BE8EAA0BBA02}",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "846353081",
+      "Name": "Play_PLAYER_CBT_player_right_btn",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_PLAYER_CBT_player_right_btn",
+      "GUID": "{091A3D1E-A5B4-4374-9770-B6DE43A54906}",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "2640841182",
+      "Name": "Play_PLAYER_CBT_wrong_btn",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_PLAYER_CBT_wrong_btn",
+      "GUID": "{A7146251-07C6-4996-85A4-5E60B782733E}",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "1981894631",
+      "Name": "Play_PLAYER_END",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_PLAYER_END",
+      "GUID": "{CFE91E40-D98F-4D6F-8348-9525DC18EC91}",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "3620103848",
+      "Name": "Play_PLAYER_Footsteps_Walk_Run_Hooves",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_PLAYER_Footsteps_Walk_Run_Hooves",
+      "GUID": "{923A9C10-98E3-441E-B788-BC4329F9DE4B}",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "1042134263",
+      "Name": "Play_PLAYER_Human_Breaths",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_PLAYER_Human_Breaths",
+      "GUID": "{2BAAEBAA-F057-46EA-AEA0-1A02990BCAD8}",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "416518550",
+      "Name": "Play_PLAYER_Power_Down_Wear_Off",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_PLAYER_Power_Down_Wear_Off",
+      "GUID": "{8FAC7F0F-22ED-4334-A52B-7E2AE1A9BFC0}",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "1501722603",
+      "Name": "Play_PLAYER_Power_Up_Buff",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_PLAYER_Power_Up_Buff",
+      "GUID": "{71F3EE0B-AFD8-4CDA-AAD1-F7EB089F1EDB}",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "2171434166",
+      "Name": "Play_UI_END",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_UI_END",
+      "GUID": "{26B2528B-4A0F-4900-893A-6A69BA0BAA5B}",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "1883557774",
+      "Name": "Play_UI_Menu_button_hover",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_UI_Menu_button_hover",
+      "GUID": "{D170B9CF-76FF-47C7-A832-D898AE89F934}",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "740518234",
+      "Name": "Play_UI_Menu_button_pressed",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_UI_Menu_button_pressed",
+      "GUID": "{004EA55D-9771-45F3-991F-B3BD5C1EDACD}",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "2611103136",
+      "Name": "Play_UI_Menu_flipping_sound",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_UI_Menu_flipping_sound",
+      "GUID": "{1FFE5D15-C8D7-4E13-B68C-D22C7FD00247}",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "1959519515",
+      "Name": "Play_UI_Score_Increase_Loopable",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_UI_Score_Increase_Loopable",
+      "GUID": "{EE183CEC-B211-4192-A92B-788760335250}",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "3237028244",
+      "Name": "Play_UI_Splash_Title_Fade_In",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_UI_Splash_Title_Fade_In",
+      "GUID": "{9A5C651F-07F8-4FA4-BCC6-93D351DC725A}",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
       "Id": "996272122",
       "Name": "sfx_ENEMY_pig_npc_snore",
       "ObjectPath": "\\Events\\Default Work Unit\\sfx_ENEMY_pig_npc_snore",
       "GUID": "{AD0EFDB9-7179-47B8-9656-DE2B2F78FC8B}",
       "MaxAttenuation": "30",
       "DurationType": "OneShot",
-      "DurationMin": "3.5339916",
-      "DurationMax": "2003.7441",
+      "DurationMin": "3.204123",
+      "DurationMax": "2003.3947",
       "MediaRefs": [
        {
         "Id": "23657185"
-       },
-       {
-        "Id": "212930780"
        },
        {
         "Id": "299721440"
@@ -117,6 +322,6 @@
     ]
    }
   ],
-  "FileHash": "{F5E5BA45-9529-63D4-5AC5-DC8326687518}"
+  "FileHash": "{CD3C3559-CA35-874B-8027-3EE2DCF0919B}"
  }
 }

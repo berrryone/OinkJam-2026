@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{73CAF00B-9CFC-D1EB-6323-0C2ADAF9ACAB}",
+    "Hash": "{911E91CC-32DA-6AB0-98F5-EBBD9FD7A7B3}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -48,6 +48,50 @@
       "Name": "Pig_Count",
       "ObjectPath": "\\Game Parameters\\Default Work Unit\\Pig_Count",
       "GUID": "{F5B27FAA-CD17-401D-A955-B6BF4E63BABC}"
+     }
+    ],
+    "StateGroups": [
+     {
+      "Id": "2582085496",
+      "Name": "Exploration",
+      "ObjectPath": "\\States\\Default Work Unit\\Exploration",
+      "GUID": "{F0ECAE33-F576-4524-9D5D-26D2D5ADFAE2}",
+      "States": [
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Default Work Unit\\Exploration\\None",
+        "GUID": "{8C3E63FD-5173-4E8D-BE5B-DC79D974B91B}"
+       }
+      ]
+     },
+     {
+      "Id": "2607556080",
+      "Name": "Menu",
+      "ObjectPath": "\\States\\Default Work Unit\\Menu",
+      "GUID": "{8D997460-AA6C-4FFD-B403-76F96DD98177}",
+      "States": [
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Default Work Unit\\Menu\\None",
+        "GUID": "{A6C87FF6-1E00-440C-A4BD-BB5388D8E668}"
+       }
+      ]
+     },
+     {
+      "Id": "2764240573",
+      "Name": "Combat",
+      "ObjectPath": "\\States\\Default Work Unit\\Combat",
+      "GUID": "{6E71D6F3-B629-402E-87C2-E96EEF573323}",
+      "States": [
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Default Work Unit\\Combat\\None",
+        "GUID": "{24649C42-B426-432E-A9A7-37B7ED865FDB}"
+       }
+      ]
      }
     ],
     "AcousticTextures": [
@@ -529,6 +573,6 @@
     ]
    }
   ],
-  "FileHash": "{3CD362DF-52B1-F782-8AC2-5FD1489F9B3E}"
+  "FileHash": "{1B58D475-84FF-3919-8E2A-BA7B42193B1F}"
  }
 }
