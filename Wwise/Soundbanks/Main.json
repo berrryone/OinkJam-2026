@@ -68,8 +68,9 @@
      {
       "Id": "872933623",
       "Name": "Play_ENEMY_Aggro_Close_Attack",
-      "ObjectPath": "\\Events\\Default Work Unit\\Play_ENEMY_Aggro_Close_Attack",
+      "ObjectPath": "\\Events\\Default Work Unit\\ENEMY\\Play_ENEMY_Aggro_Close_Attack",
       "GUID": "{9D0FB972-A7C5-49E2-9D95-F2A5744D268D}",
+      "Color": "10",
       "DurationType": "OneShot",
       "DurationMin": "0",
       "DurationMax": "0"
@@ -77,8 +78,9 @@
      {
       "Id": "3803466734",
       "Name": "Play_ENEMY_CBT_appear",
-      "ObjectPath": "\\Events\\Default Work Unit\\Play_ENEMY_CBT_appear",
+      "ObjectPath": "\\Events\\Default Work Unit\\ENEMY\\Play_ENEMY_CBT_appear",
       "GUID": "{91FC31F5-312A-44E5-B57E-DFBFDCDD8BD3}",
+      "Color": "10",
       "DurationType": "OneShot",
       "DurationMin": "0",
       "DurationMax": "0"
@@ -86,8 +88,9 @@
      {
       "Id": "2734126450",
       "Name": "Play_ENEMY_CBT_damage",
-      "ObjectPath": "\\Events\\Default Work Unit\\Play_ENEMY_CBT_damage",
+      "ObjectPath": "\\Events\\Default Work Unit\\ENEMY\\Play_ENEMY_CBT_damage",
       "GUID": "{8C10BA04-B135-44F0-A058-B659D82A5B5D}",
+      "Color": "10",
       "DurationType": "OneShot",
       "DurationMin": "0",
       "DurationMax": "0"
@@ -95,8 +98,9 @@
      {
       "Id": "3229301663",
       "Name": "Play_ENEMY_CBT_Sees_Player_Investigate_Oink",
-      "ObjectPath": "\\Events\\Default Work Unit\\Play_ENEMY_CBT_Sees_Player_Investigate_Oink",
+      "ObjectPath": "\\Events\\Default Work Unit\\ENEMY\\Play_ENEMY_CBT_Sees_Player_Investigate_Oink",
       "GUID": "{C09B437C-83A3-4804-921C-DA866A32AB32}",
+      "Color": "10",
       "DurationType": "OneShot",
       "DurationMin": "0",
       "DurationMax": "0"
@@ -104,8 +108,9 @@
      {
       "Id": "2531999604",
       "Name": "Play_ENEMY_END",
-      "ObjectPath": "\\Events\\Default Work Unit\\Play_ENEMY_END",
+      "ObjectPath": "\\Events\\Default Work Unit\\ENEMY\\Play_ENEMY_END",
       "GUID": "{3017B852-B590-47CD-BB39-5B3AD3CCFABA}",
+      "Color": "10",
       "DurationType": "OneShot",
       "DurationMin": "0",
       "DurationMax": "0"
@@ -113,8 +118,9 @@
      {
       "Id": "469901184",
       "Name": "Play_ENVIRO_Close_Container",
-      "ObjectPath": "\\Events\\Default Work Unit\\Play_ENVIRO_Close_Container",
+      "ObjectPath": "\\Events\\Default Work Unit\\ENVIRO\\Play_ENVIRO_Close_Container",
       "GUID": "{15617A3C-E33C-409C-A4AF-DB3D4CAABD75}",
+      "Color": "1",
       "DurationType": "OneShot",
       "DurationMin": "0",
       "DurationMax": "0"
@@ -122,8 +128,9 @@
      {
       "Id": "2877007734",
       "Name": "Play_ENVIRO_Combat_Timer_End_Pattern_Switch",
-      "ObjectPath": "\\Events\\Default Work Unit\\Play_ENVIRO_Combat_Timer_End_Pattern_Switch",
+      "ObjectPath": "\\Events\\Default Work Unit\\ENVIRO\\Play_ENVIRO_Combat_Timer_End_Pattern_Switch",
       "GUID": "{026E3BA7-6F76-4877-8244-D6235AC57DC0}",
+      "Color": "1",
       "DurationType": "OneShot",
       "DurationMin": "0",
       "DurationMax": "0"
@@ -131,8 +138,9 @@
      {
       "Id": "3322081940",
       "Name": "Play_ENVIRO_Open_Container",
-      "ObjectPath": "\\Events\\Default Work Unit\\Play_ENVIRO_Open_Container",
+      "ObjectPath": "\\Events\\Default Work Unit\\ENVIRO\\Play_ENVIRO_Open_Container",
       "GUID": "{06360CEE-007B-4580-953F-BE686ADDC304}",
+      "Color": "1",
       "DurationType": "OneShot",
       "DurationMin": "0",
       "DurationMax": "0"
@@ -140,8 +148,9 @@
      {
       "Id": "361969070",
       "Name": "Play_ENVIRO_WORLD_END",
-      "ObjectPath": "\\Events\\Default Work Unit\\Play_ENVIRO_WORLD_END",
+      "ObjectPath": "\\Events\\Default Work Unit\\ENVIRO\\Play_ENVIRO_WORLD_END",
       "GUID": "{84885D67-9D36-4BFA-8098-8F1DD28D2D21}",
+      "Color": "1",
       "DurationType": "OneShot",
       "DurationMin": "0",
       "DurationMax": "0"
@@ -149,8 +158,9 @@
      {
       "Id": "1653993732",
       "Name": "Play_PLAYER_CBT_attack",
-      "ObjectPath": "\\Events\\Default Work Unit\\Play_PLAYER_CBT_attack",
+      "ObjectPath": "\\Events\\Default Work Unit\\PLAYER\\Play_PLAYER_CBT_attack",
       "GUID": "{7F36594A-1A1B-43C1-BF32-05C21C3A5047}",
+      "Color": "8",
       "DurationType": "OneShot",
       "DurationMin": "0",
       "DurationMax": "0"
@@ -158,8 +168,9 @@
      {
       "Id": "4035153595",
       "Name": "Play_PLAYER_CBT_damage",
-      "ObjectPath": "\\Events\\Default Work Unit\\Play_PLAYER_CBT_damage",
+      "ObjectPath": "\\Events\\Default Work Unit\\PLAYER\\Play_PLAYER_CBT_damage",
       "GUID": "{A3B328B1-C6A4-4E54-A9F5-BE8EAA0BBA02}",
+      "Color": "8",
       "DurationType": "OneShot",
       "DurationMin": "0",
       "DurationMax": "0"
@@ -167,8 +178,9 @@
      {
       "Id": "846353081",
       "Name": "Play_PLAYER_CBT_player_right_btn",
-      "ObjectPath": "\\Events\\Default Work Unit\\Play_PLAYER_CBT_player_right_btn",
+      "ObjectPath": "\\Events\\Default Work Unit\\PLAYER\\Play_PLAYER_CBT_player_right_btn",
       "GUID": "{091A3D1E-A5B4-4374-9770-B6DE43A54906}",
+      "Color": "8",
       "DurationType": "OneShot",
       "DurationMin": "0",
       "DurationMax": "0"
@@ -176,8 +188,9 @@
      {
       "Id": "2640841182",
       "Name": "Play_PLAYER_CBT_wrong_btn",
-      "ObjectPath": "\\Events\\Default Work Unit\\Play_PLAYER_CBT_wrong_btn",
+      "ObjectPath": "\\Events\\Default Work Unit\\PLAYER\\Play_PLAYER_CBT_wrong_btn",
       "GUID": "{A7146251-07C6-4996-85A4-5E60B782733E}",
+      "Color": "8",
       "DurationType": "OneShot",
       "DurationMin": "0",
       "DurationMax": "0"
@@ -185,8 +198,9 @@
      {
       "Id": "1981894631",
       "Name": "Play_PLAYER_END",
-      "ObjectPath": "\\Events\\Default Work Unit\\Play_PLAYER_END",
+      "ObjectPath": "\\Events\\Default Work Unit\\PLAYER\\Play_PLAYER_END",
       "GUID": "{CFE91E40-D98F-4D6F-8348-9525DC18EC91}",
+      "Color": "8",
       "DurationType": "OneShot",
       "DurationMin": "0",
       "DurationMax": "0"
@@ -194,8 +208,9 @@
      {
       "Id": "3620103848",
       "Name": "Play_PLAYER_Footsteps_Walk_Run_Hooves",
-      "ObjectPath": "\\Events\\Default Work Unit\\Play_PLAYER_Footsteps_Walk_Run_Hooves",
+      "ObjectPath": "\\Events\\Default Work Unit\\PLAYER\\Play_PLAYER_Footsteps_Walk_Run_Hooves",
       "GUID": "{923A9C10-98E3-441E-B788-BC4329F9DE4B}",
+      "Color": "8",
       "DurationType": "OneShot",
       "DurationMin": "0",
       "DurationMax": "0"
@@ -203,8 +218,9 @@
      {
       "Id": "1042134263",
       "Name": "Play_PLAYER_Human_Breaths",
-      "ObjectPath": "\\Events\\Default Work Unit\\Play_PLAYER_Human_Breaths",
+      "ObjectPath": "\\Events\\Default Work Unit\\PLAYER\\Play_PLAYER_Human_Breaths",
       "GUID": "{2BAAEBAA-F057-46EA-AEA0-1A02990BCAD8}",
+      "Color": "8",
       "DurationType": "OneShot",
       "DurationMin": "0",
       "DurationMax": "0"
@@ -212,8 +228,9 @@
      {
       "Id": "416518550",
       "Name": "Play_PLAYER_Power_Down_Wear_Off",
-      "ObjectPath": "\\Events\\Default Work Unit\\Play_PLAYER_Power_Down_Wear_Off",
+      "ObjectPath": "\\Events\\Default Work Unit\\PLAYER\\Play_PLAYER_Power_Down_Wear_Off",
       "GUID": "{8FAC7F0F-22ED-4334-A52B-7E2AE1A9BFC0}",
+      "Color": "8",
       "DurationType": "OneShot",
       "DurationMin": "0",
       "DurationMax": "0"
@@ -221,8 +238,9 @@
      {
       "Id": "1501722603",
       "Name": "Play_PLAYER_Power_Up_Buff",
-      "ObjectPath": "\\Events\\Default Work Unit\\Play_PLAYER_Power_Up_Buff",
+      "ObjectPath": "\\Events\\Default Work Unit\\PLAYER\\Play_PLAYER_Power_Up_Buff",
       "GUID": "{71F3EE0B-AFD8-4CDA-AAD1-F7EB089F1EDB}",
+      "Color": "8",
       "DurationType": "OneShot",
       "DurationMin": "0",
       "DurationMax": "0"
@@ -230,8 +248,9 @@
      {
       "Id": "2171434166",
       "Name": "Play_UI_END",
-      "ObjectPath": "\\Events\\Default Work Unit\\Play_UI_END",
+      "ObjectPath": "\\Events\\Default Work Unit\\UI\\Play_UI_END",
       "GUID": "{26B2528B-4A0F-4900-893A-6A69BA0BAA5B}",
+      "Color": "7",
       "DurationType": "OneShot",
       "DurationMin": "0",
       "DurationMax": "0"
@@ -239,8 +258,9 @@
      {
       "Id": "1883557774",
       "Name": "Play_UI_Menu_button_hover",
-      "ObjectPath": "\\Events\\Default Work Unit\\Play_UI_Menu_button_hover",
+      "ObjectPath": "\\Events\\Default Work Unit\\UI\\Play_UI_Menu_button_hover",
       "GUID": "{D170B9CF-76FF-47C7-A832-D898AE89F934}",
+      "Color": "7",
       "DurationType": "OneShot",
       "DurationMin": "0",
       "DurationMax": "0"
@@ -248,8 +268,9 @@
      {
       "Id": "740518234",
       "Name": "Play_UI_Menu_button_pressed",
-      "ObjectPath": "\\Events\\Default Work Unit\\Play_UI_Menu_button_pressed",
+      "ObjectPath": "\\Events\\Default Work Unit\\UI\\Play_UI_Menu_button_pressed",
       "GUID": "{004EA55D-9771-45F3-991F-B3BD5C1EDACD}",
+      "Color": "7",
       "DurationType": "OneShot",
       "DurationMin": "0",
       "DurationMax": "0"
@@ -257,8 +278,9 @@
      {
       "Id": "2611103136",
       "Name": "Play_UI_Menu_flipping_sound",
-      "ObjectPath": "\\Events\\Default Work Unit\\Play_UI_Menu_flipping_sound",
+      "ObjectPath": "\\Events\\Default Work Unit\\UI\\Play_UI_Menu_flipping_sound",
       "GUID": "{1FFE5D15-C8D7-4E13-B68C-D22C7FD00247}",
+      "Color": "7",
       "DurationType": "OneShot",
       "DurationMin": "0",
       "DurationMax": "0"
@@ -266,8 +288,9 @@
      {
       "Id": "1959519515",
       "Name": "Play_UI_Score_Increase_Loopable",
-      "ObjectPath": "\\Events\\Default Work Unit\\Play_UI_Score_Increase_Loopable",
+      "ObjectPath": "\\Events\\Default Work Unit\\UI\\Play_UI_Score_Increase_Loopable",
       "GUID": "{EE183CEC-B211-4192-A92B-788760335250}",
+      "Color": "7",
       "DurationType": "OneShot",
       "DurationMin": "0",
       "DurationMax": "0"
@@ -275,8 +298,9 @@
      {
       "Id": "3237028244",
       "Name": "Play_UI_Splash_Title_Fade_In",
-      "ObjectPath": "\\Events\\Default Work Unit\\Play_UI_Splash_Title_Fade_In",
+      "ObjectPath": "\\Events\\Default Work Unit\\UI\\Play_UI_Splash_Title_Fade_In",
       "GUID": "{9A5C651F-07F8-4FA4-BCC6-93D351DC725A}",
+      "Color": "7",
       "DurationType": "OneShot",
       "DurationMin": "0",
       "DurationMax": "0"
@@ -284,8 +308,9 @@
      {
       "Id": "996272122",
       "Name": "sfx_ENEMY_pig_npc_snore",
-      "ObjectPath": "\\Events\\Default Work Unit\\sfx_ENEMY_pig_npc_snore",
+      "ObjectPath": "\\Events\\Default Work Unit\\ENEMY\\sfx_ENEMY_pig_npc_snore",
       "GUID": "{AD0EFDB9-7179-47B8-9656-DE2B2F78FC8B}",
+      "Color": "10",
       "MaxAttenuation": "30",
       "DurationType": "OneShot",
       "DurationMin": "3.204123",
@@ -322,6 +347,6 @@
     ]
    }
   ],
-  "FileHash": "{950D902D-4506-7CB2-F819-EFEF4748733E}"
+  "FileHash": "{B8BEC983-ABA3-6FFC-ABF7-2B6CBB90C38E}"
  }
 }
